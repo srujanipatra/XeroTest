@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13666" started-at="2020-03-23T22:09:16Z" finished-at="2020-03-23T22:09:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13666" started-at="2020-03-23T22:09:16Z" finished-at="2020-03-23T22:09:30Z">
+      <class name="XeroTest">
+        <test-method status="PASS" signature="Initialize(java.lang.String)[pri:0, instance:XeroTest@46d56d67]" name="Initialize" is-config="true" duration-ms="6272" started-at="2020-03-23T17:09:16Z" finished-at="2020-03-23T17:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="TC_ID01A_Navigate_To_Xero()[pri:0, instance:XeroTest@46d56d67]" name="TC_ID01A_Navigate_To_Xero" duration-ms="6483" started-at="2020-03-23T17:09:23Z" description="Login to the xero website" finished-at="2020-03-23T17:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID01A_Navigate_To_Xero -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:XeroTest@46d56d67]" name="CloseTest" is-config="true" duration-ms="887" started-at="2020-03-23T17:09:29Z" finished-at="2020-03-23T17:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTest -->
+      </class> <!-- XeroTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
